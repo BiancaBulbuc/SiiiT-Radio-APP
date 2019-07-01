@@ -1,0 +1,50 @@
+.team-container {
+    width: 100%;
+}
+
+.card-container {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-container  h3 {
+    width: 270px;
+    background-color: turquoise;
+    /* margin-top: 30px; */
+    padding-left: 10px;
+}
+
+.member-card {
+    width: 270px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    align-content: space-between;
+    margin-top: 40px;
+    /* flex-wrap: wrap; */
+}
+ 
+
+.member-img{
+    width: 110px;
+}
+
+
+
+
+@media screen and (min-width: 680px) {
+     .card-container {
+        width: 1200px;
+        flex-direction: row;
+    }
+  
+    .member-card {
+        width: 350px; 
+    }
+    
+
+
+}
